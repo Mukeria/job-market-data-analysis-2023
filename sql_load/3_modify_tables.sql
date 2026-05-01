@@ -26,7 +26,7 @@ NOTE: If you are having issues with permissions. And you get error:
 -- NOTE: This has been updated from the video to fix issues with encoding
 
 COPY company_dim
-FROM 'C:\Users\Home\Desktop\csv_files\company_dim.csv'
+FROM 'File path'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_dim
